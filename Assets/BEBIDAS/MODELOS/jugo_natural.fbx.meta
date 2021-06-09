@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 8e45b60e084eb4741abf1019f738182e
+=======
+guid: 2107af5b6c278374ab4a4f727ec9af1c
+>>>>>>> parent of 2e58892 (Revert "Bebidas Al Escenario")
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
