@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/BEBIDAS/MODELOS/JUGO_COMERCIAL.fbx.meta
 guid: 3dd3122de8032a34ab4da0c51e478127
-========
-<<<<<<< HEAD
-guid: 92bbeaf9c69c15f498efc3d668e7b444
-=======
-guid: 82a7fc53bb733a740bebe14de6352fd0
->>>>>>> 26944e64d0dbc54ec13c0ef75572c8a5a8517fe6
->>>>>>>> 7c4a018299436f15a68c959deb5025f7d079a36d:Assets/BEBIDAS/MODELOS/PEPSI_CAN_2.fbx.meta
-=======
-guid: 1749e49e88250cd48b2e7e96744907f4
->>>>>>> 7c4a018299436f15a68c959deb5025f7d079a36d
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
