@@ -34,8 +34,9 @@ using UnityEngine.UI;
 
         private void Start()
         {
-            _graphic = GetComponent<Graphic>();
-        }
+        _graphic = GetComponent<Graphic>();
+        Display.SetActive(false);
+    }
 
         private void Update()
         {
