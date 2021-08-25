@@ -12,6 +12,7 @@ public class ActivadorPregunta : MonoBehaviour {
 	void OnTriggerEnter(Collider col){
 		switch (col.gameObject.tag){
 		case "PlayerInteractionZone":
+				Debug.Log("Entrada");
 			Pregunta.SetActive (true);
 			break;
 		}
