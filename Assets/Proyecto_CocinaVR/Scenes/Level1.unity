@@ -5842,12 +5842,12 @@ PrefabInstance:
     - target: {fileID: 114404013065818992, guid: 596e593361e094a43934c013fa0b5764,
         type: 3}
       propertyPath: Settings.StandaloneEyeTrackingProviders.Array.data[1].TypeName
-      value: Tobii.XR.MouseProvider
+      value: Tobii.XR.NoseDirectionProvider
       objectReference: {fileID: 0}
     - target: {fileID: 114404013065818992, guid: 596e593361e094a43934c013fa0b5764,
         type: 3}
       propertyPath: Settings.StandaloneEyeTrackingProviders.Array.data[2].TypeName
-      value: Tobii.XR.NoseDirectionProvider
+      value: Tobii.XR.MouseProvider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 596e593361e094a43934c013fa0b5764, type: 3}
