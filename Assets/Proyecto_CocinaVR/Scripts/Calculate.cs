@@ -15,7 +15,7 @@ public class Calculate : MonoBehaviour
             listaD.Add(other.GetComponentInParent<Datos>().nombre,other.GetComponentInParent<Datos>().azucar); 
             sumatotal +=other.GetComponentInParent<Datos>().azucar;
             
-            //Debug.Log(other.GetComponentInParent<Datos>().nombre + " contiene " + other.GetComponentInParent<Datos>().sal +" de sal");
+            Debug.Log(other.GetComponentInParent<Datos>().nombre + " contiene " + other.GetComponentInParent<Datos>().azucar +" de sal");
         }
         
     }
@@ -23,7 +23,7 @@ public class Calculate : MonoBehaviour
         if(other.tag=="Objeto"){
             listaD.Remove(other.GetComponentInParent<Datos>().nombre);
             sumatotal -=other.GetComponentInParent<Datos>().azucar;
-            //Debug.Log(other.GetComponentInParent<Datos>().nombre + " salio ");
+            Debug.Log(other.GetComponentInParent<Datos>().nombre + " salio ");
         }
         
     }

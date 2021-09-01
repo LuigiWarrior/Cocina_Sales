@@ -16,8 +16,9 @@ public class botonShowDetails : MonoBehaviour
     public float max=10;
 
     public void Update(){
-
-        if(Input.GetKeyDown(KeyCode.E)){
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
             listaAlimentos.text="";
             contador =plato.GetComponentInParent<Calculate>().sumatotal;
             mensaje.text = "El total de azucar que consumes es de: " + contador +" cucharadas al día\n\n Alimentos seleccionados:";
@@ -31,6 +32,25 @@ public class botonShowDetails : MonoBehaviour
             }
             CalcularSal(contador,max);
         }
+    }
+
+    public void Evento1()
+    {
+        Debug.Log("ENTRA EVENTO1");
+        listaAlimentos.text = "";
+        contador = plato.GetComponentInParent<Calculate>().sumatotal;
+        mensaje.text = "El total de azucar que consumes es de: " + contador + " cucharadas al día\n\n Alimentos seleccionados:";
+        listaA = plato.GetComponentInParent<Calculate>().lista;
+        listaD = plato.GetComponentInParent<Calculate>().listaD;
+
+        foreach (KeyValuePair<string, float> item in listaD)
+        {
+
+            listaAlimentos.text += item.Key + " " + item.Value + " cucharadas\n";
+        }
+        CalcularSal(contador, max);
+
+
     }
 
 
