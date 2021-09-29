@@ -6,11 +6,12 @@ public class CambioEscenas : MonoBehaviour
 {
     public GameObject toDestroy;
     public GameObject boton;
+    public string escena; 
     public void OnPress(Hand hand)
     {
         Debug.Log("SteamVR Button pressed!");
         Destroy(toDestroy);
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(escena);
         
 
     }
