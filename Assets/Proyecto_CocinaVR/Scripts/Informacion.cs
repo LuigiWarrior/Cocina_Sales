@@ -7,7 +7,10 @@ public class Informacion : MonoBehaviour
 {
     public GameObject Display;
 	private int intentos = 2;
-    void Start()
+	public float tiempoMaximo;
+	private bool flag = false;
+	private float tiempo;
+	void Start()
     {
         Display.SetActive (false);
     }
@@ -20,13 +23,14 @@ public class Informacion : MonoBehaviour
 				if (intentos > 0)
 				{
 					Display.SetActive(true);
+					flag = true;
 					intentos--;
 				}
 			break;
 		}
 		
 	}
-	void OnTriggerExit(Collider col){
+	/*void OnTriggerExit(Collider col){
 		
 		switch (col.gameObject.tag){
 		case "PlayerInteractionZone":
@@ -34,5 +38,22 @@ public class Informacion : MonoBehaviour
 			break;
 		}
 	
+	}*/
+	private void Update()
+	{
+
+		if (flag == true)
+		{
+
+			tiempo += Time.deltaTime;
+			if (tiempo >= tiempoMaximo)
+			{
+				Display.SetActive(false);
+				tiempo = 0f;
+				flag = false;
+			}
+		}
+
+
 	}
 }
