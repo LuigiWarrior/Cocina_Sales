@@ -14,15 +14,5 @@ namespace Tobii.XR.Examples
             Debug.Log(button.name + " has been clicked.");
         }
 
-        public void PrintToggleButtonToggled(GameObject toggleButton, bool isToggleOn)
-        {
-            var toggleString = isToggleOn ? "ON" : "OFF";
-            Debug.Log(toggleButton.name + " has been toggled " + toggleString + ".");
-        }
-
-        public void PrintSliderValueHasChanged(GameObject slider, int newValue)
-        {
-            Debug.Log(slider.name + " has been updated to " + newValue + ".");
-        }
     }
 }

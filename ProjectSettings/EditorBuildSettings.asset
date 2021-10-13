@@ -18,5 +18,7 @@ EditorBuildSettings:
     path: Assets/Proyecto_CocinaVR/Scenes/Diagnostico.unity
     guid: 9241f6fced6d84d4e9f65b0c5516a243
   m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 6be77d4e43bbc9142b02254b84e295b2,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ecfec3a5e94f8864d8805b7fcbc982d5,
       type: 2}
