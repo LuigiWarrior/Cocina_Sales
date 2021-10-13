@@ -9,6 +9,7 @@ TagManager:
   - Objeto
   - Platano
   - personaje
+  - Button
   layers:
   - Default
   - TransparentFX

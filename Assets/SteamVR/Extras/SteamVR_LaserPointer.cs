@@ -1,6 +1,7 @@
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 using UnityEngine;
 using System.Collections;
+using UnityEditorInternal;
 
 namespace Valve.VR.Extras
 {
@@ -23,6 +24,7 @@ namespace Valve.VR.Extras
         public event PointerEventHandler PointerIn;
         public event PointerEventHandler PointerOut;
         public event PointerEventHandler PointerClick;
+        private int buttonFlag = 0;
 
         Transform previousContact = null;
 
@@ -79,7 +81,10 @@ namespace Valve.VR.Extras
         public virtual void OnPointerClick(PointerEventArgs e)
         {
             if (PointerClick != null)
+            {
                 PointerClick(this, e);
+                Debug.Log("clickeado el gatillo");
+            }
         }
 
         public virtual void OnPointerOut(PointerEventArgs e)
@@ -146,12 +151,14 @@ namespace Valve.VR.Extras
             {
                 pointer.transform.localScale = new Vector3(thickness * 5f, thickness * 5f, dist);
                 pointer.GetComponent<MeshRenderer>().material.color = clickColor;
+                
             }
             else
             {
                 pointer.transform.localScale = new Vector3(thickness, thickness, dist);
                 pointer.GetComponent<MeshRenderer>().material.color = color;
             }
+            
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
         }
     }
