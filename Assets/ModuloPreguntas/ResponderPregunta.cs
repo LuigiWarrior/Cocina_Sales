@@ -31,4 +31,5 @@ public class ResponderPregunta : MonoBehaviour {
 		Destroy (Pregunta);
 	}
 
+  
 }
