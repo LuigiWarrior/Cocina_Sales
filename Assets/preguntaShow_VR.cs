@@ -5,7 +5,7 @@ using UnityEngine;
 public class preguntaShow_VR : MonoBehaviour
 {
     public GameObject Display;
-    public GameObject objeto;
+    //public GameObject objeto;
     void Start()
     {
         Display.SetActive(false);
@@ -17,7 +17,7 @@ public class preguntaShow_VR : MonoBehaviour
         if (col.tag == "PlayerInteractionZone")
         {
             Display.SetActive(true);
-            DontDestroyOnLoad(objeto);
+            //DontDestroyOnLoad(objeto);
         }
 
     }

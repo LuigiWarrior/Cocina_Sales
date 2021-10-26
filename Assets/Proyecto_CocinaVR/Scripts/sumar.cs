@@ -8,6 +8,8 @@ public class sumar : MonoBehaviour
 {
     public Text canva_puntos;
     public int puntosPorRespuesta = 0;
+
+    
     private float tiempo;
     public bool flag = false;
     public static int puntos;
@@ -26,9 +28,21 @@ public class sumar : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        flag = true;
+        flag = false;
+       
+        Debug.Log("Activado");
         
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        flag = false;
+        Debug.Log("Stay");
+    }
 
+    private void OnTriggerExit(Collider other)
+    {
+        flag = true;
+        Debug.Log("Exit");
         if (flag == true)
         {
             puntos += puntosPorRespuesta;
@@ -44,19 +58,13 @@ public class sumar : MonoBehaviour
 
         }
 
-        Debug.Log("Activado");
-        
-    }
-    private void OnTriggerStay(Collider other)
-    {
+
+
         flag = false;
-        Debug.Log("Stay");
+
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        flag = false;
-        Debug.Log("Exit");
-    }
+   
+
 }
 
