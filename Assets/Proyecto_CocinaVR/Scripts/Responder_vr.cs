@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Responder_vr : MonoBehaviour
-    
-{
+public class Responder_vr : MonoBehaviour{
     
     
     public Text canva_puntos;

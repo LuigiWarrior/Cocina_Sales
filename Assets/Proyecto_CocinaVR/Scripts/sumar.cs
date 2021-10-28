@@ -16,55 +16,25 @@ public class sumar : MonoBehaviour
     private float tiempoMaximo = 0.1f;
     void Start()
     {
-        //Bien.SetActive(false);
-        //Mal.SetActive(false);
         puntos = 0;
-    }
-
-    private void Update()
-    {
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        flag = false;
-       
-        Debug.Log("Activado");
-        
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        flag = false;
-        Debug.Log("Stay");
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
         flag = true;
-        Debug.Log("Exit");
-        if (flag == true)
+        if (other.tag == "PlayerInteractionZone")
         {
-            puntos += puntosPorRespuesta;
-            flag = false;
-            /*tiempo += Time.deltaTime;
-            if (tiempo >= tiempoMaximo)
+            if (flag == true)
             {
-                tiempo = 0f;
+                puntos += puntosPorRespuesta;
                 flag = false;
-            }*/
-            canva_puntos.text = "puntos: " + puntos;
-            new WaitForSeconds(0.5f);
+                canva_puntos.text = "" + puntos;
+                new WaitForSeconds(0.5f);
 
+            }
         }
-
-
-
         flag = false;
-
     }
-
-   
-
+ 
 }
 
