@@ -4,13 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Responder_vr : MonoBehaviour{
-    
-    
-    public Text canva_puntos;
+
+    public GameObject Display;
+    private Text canva_puntos;
     public int puntosPorRespuesta = 0;
     public GameObject Pregunta;
     public GameObject Bien;
     public GameObject Mal;
+    private float tiempoMaximo = 5f;
+    public static bool flag = false;
+    private float tiempo;
 
     public static int puntos;
 
@@ -20,26 +23,77 @@ public class Responder_vr : MonoBehaviour{
         //Bien.SetActive(false);
         //Mal.SetActive(false);
         puntos = 0;
+
+        
     }
 
-   
+
 
     private void OnTriggerEnter(Collider other)
     {
-        puntos += puntosPorRespuesta;
+        if (other.tag == "PlayerInteractionZone")
+        {
+            puntos += puntosPorRespuesta;
 
-        //canva_puntos.text = "puntos: " + puntos;
-        if (puntos == 1)
-        {
-            Bien.SetActive(true);
-            puntos = 0;
+            //canva_puntos.text = "puntos: " + puntos;
+            if (puntos != 0)
+            {
+                //Destroy(Display);
+                Mal.SetActive(false);
+                Bien.SetActive(true);
+                Display.SetActive(false);
+                Destroy(Display);
+                flag = true;
+
+            }
+            else
+            {
+                Display.SetActive(false);
+                Mal.SetActive(true);
+                //flag = true;
+                Invoke("tiempoSegundos", tiempoMaximo);
+                
+            }
+            //canva_puntos.text = "puntos: " + puntos;
+            
         }
-        else
-        {
-            Mal.SetActive(true);
-            puntos = 0;
-        }
-        //canva_puntos.text = "puntos: " + puntos;
-        Destroy(Pregunta);
     }
+
+    private void Update()
+    {
+
+        //tiempoSeguntos();
+
+       
+    }
+
+
+    private void tiempoSegundos()
+    {
+        /* if (flag == true)
+         {
+
+             tiempo += Time.deltaTime;
+             if (tiempo >= tiempoMaximo)
+             {
+
+                 Mal.SetActive(false);
+                 tiempo = 0f;
+                 flag = false;
+                 Display.SetActive(true);
+
+             }
+
+         }*/
+
+        
+        Mal.SetActive(false);
+        Display.SetActive(true);
+
+    }
+
+
+
+
+
 }
