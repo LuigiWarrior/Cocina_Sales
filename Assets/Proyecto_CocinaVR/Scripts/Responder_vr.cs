@@ -21,8 +21,10 @@ public class Responder_vr : MonoBehaviour{
 
     private void OnTriggerEnter(Collider other)
     {
+      
         if (other.tag == "PlayerInteractionZone")
-        {
+        {  
+            Debug.Log("Activado");
             puntos += puntosPorRespuesta;
 
             if (puntos != 0)

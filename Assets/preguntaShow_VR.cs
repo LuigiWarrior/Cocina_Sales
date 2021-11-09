@@ -13,10 +13,10 @@ public class preguntaShow_VR : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-
+        Debug.Log("Activado");
         if (col.tag == "PlayerInteractionZone")
         { 
-                Display.SetActive(true);
+              Display.SetActive(true);  
         }
 
     }
