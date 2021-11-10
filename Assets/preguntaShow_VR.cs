@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class preguntaShow_VR : MonoBehaviour
 {
@@ -11,10 +14,10 @@ public class preguntaShow_VR : MonoBehaviour
         Display.SetActive(false);
     }
 
-    void OnTriggerEnter(Collider col)
+    private void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Activado");
-        if (col.tag == "PlayerInteractionZone")
+        Debug.Log(col.tag);
+        if (col.CompareTag("PlayerInteractionZone"))
         { 
               Display.SetActive(true);  
         }
