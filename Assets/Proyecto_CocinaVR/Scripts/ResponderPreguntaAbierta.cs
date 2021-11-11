@@ -10,10 +10,11 @@ public class ResponderPreguntaAbierta : MonoBehaviour
     public GameObject Mal;
     public string RespuestaCorrecta;
     public Text puntos;
+    private float tiempoMaximo = 2f;
 
     void Start()
     {
-       
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -21,17 +22,24 @@ public class ResponderPreguntaAbierta : MonoBehaviour
         if (other.tag == "PlayerInteractionZone")
         {
             if (puntos.text==RespuestaCorrecta)
-                    {
-                        Bien.SetActive(true);
-                    }
-                    else
-                    {
-                        Mal.SetActive(true);
-                    }
-
-                    Destroy(Pregunta);
-
+            {
+                Bien.SetActive(true);
+                Pregunta.SetActive(false);
+            }
+            else
+            {
+                Pregunta.SetActive(false);
+                Mal.SetActive(true);
+                Invoke("tiempoSegundos", tiempoMaximo);
+            }
         }
         
     }
+
+    private void tiempoSegundos()
+    {
+        Mal.SetActive(false);
+        Pregunta.SetActive(true);
+    }
+
 }

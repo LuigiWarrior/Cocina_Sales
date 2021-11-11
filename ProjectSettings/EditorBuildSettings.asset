@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Proyecto_CocinaVR/Scenes/Level3.unity
     guid: eb90e3fab464c854f9c9871c053da5ba
+  - enabled: 1
+    path: Assets/Proyecto_CocinaVR/Scenes/Level4.unity
+    guid: 457345bf071a07c408d4f287b4efaa2a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ecfec3a5e94f8864d8805b7fcbc982d5,
       type: 2}

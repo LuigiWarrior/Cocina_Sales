@@ -22,6 +22,7 @@ public class sumar : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         flag = true;
+        Debug.Log(other.tag);
         if (other.tag == "PlayerInteractionZone")
         {
             if (flag == true)

@@ -10,7 +10,7 @@ public class PickUpObjects : MonoBehaviour
     
     void Update()
     {
-        if(ObjectToPickUp != null && ObjectToPickUp.GetComponent<PickableObject>().isPickable == true && PickedObject == null){
+       /* if(ObjectToPickUp != null && ObjectToPickUp.GetComponent<PickableObject>().isPickable == true && PickedObject == null){
             if(Input.GetKeyDown(KeyCode.F)){
                 PickedObject = ObjectToPickUp;
                 PickedObject.GetComponent<PickableObject>().isPickable = false;
@@ -29,6 +29,6 @@ public class PickUpObjects : MonoBehaviour
                 PickedObject = null;
     
             }
-        }
+        }*/
     }
 }
