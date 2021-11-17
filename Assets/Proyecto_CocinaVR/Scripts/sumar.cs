@@ -9,11 +9,8 @@ public class sumar : MonoBehaviour
     public Text canva_puntos;
     public int puntosPorRespuesta = 0;
 
-    
-    private float tiempo;
     public bool flag = false;
     public static int puntos;
-    private float tiempoMaximo = 0.1f;
     void Start()
     {
         puntos = 0;

@@ -562,6 +562,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5683517273628598513, guid: d167c328bdaa41148baeb7d508b3749f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5683517274748126538, guid: d167c328bdaa41148baeb7d508b3749f,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -578,6 +583,11 @@ PrefabInstance:
       value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: 5683517274748126539, guid: d167c328bdaa41148baeb7d508b3749f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683517275441304136, guid: d167c328bdaa41148baeb7d508b3749f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6045,6 +6055,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5683517275441304136, guid: d167c328bdaa41148baeb7d508b3749f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6840849264844949859, guid: d167c328bdaa41148baeb7d508b3749f,
         type: 3}
       propertyPath: m_Name
@@ -10203,6 +10218,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5683517273628598513, guid: d167c328bdaa41148baeb7d508b3749f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5683517274748126538, guid: d167c328bdaa41148baeb7d508b3749f,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -10219,6 +10239,11 @@ PrefabInstance:
       value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 5683517274748126539, guid: d167c328bdaa41148baeb7d508b3749f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683517275441304136, guid: d167c328bdaa41148baeb7d508b3749f,
         type: 3}
       propertyPath: m_IsActive
       value: 0

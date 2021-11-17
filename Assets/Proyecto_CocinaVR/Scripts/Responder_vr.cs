@@ -25,6 +25,7 @@ public class Responder_vr : MonoBehaviour{
         if (other.tag == "PlayerInteractionZone")
         {  
             Debug.Log("Activado");
+            puntos += puntosPorRespuesta;
 
             if (puntos != 0)
             {

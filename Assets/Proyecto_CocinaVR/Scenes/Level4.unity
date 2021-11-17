@@ -1967,7 +1967,7 @@ MonoBehaviour:
   Pregunta: {fileID: 282767354}
   Bien: {fileID: 1785361745}
   Mal: {fileID: 1570615854}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 282767350}
 --- !u!65 &282767361
 BoxCollider:
@@ -3607,7 +3607,7 @@ MonoBehaviour:
   Pregunta: {fileID: 456514167}
   Bien: {fileID: 987322814}
   Mal: {fileID: 175866401}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 456514163}
 --- !u!65 &456514174
 BoxCollider:
@@ -4833,7 +4833,7 @@ MonoBehaviour:
   Pregunta: {fileID: 585596773}
   Bien: {fileID: 394110966}
   Mal: {fileID: 1744935895}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 585596769}
 --- !u!65 &585596780
 BoxCollider:
@@ -5912,7 +5912,7 @@ MonoBehaviour:
   Pregunta: {fileID: 699614157}
   Bien: {fileID: 546495469}
   Mal: {fileID: 972865042}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 699614153}
 --- !u!65 &699614164
 BoxCollider:
@@ -11549,7 +11549,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1581922215}
   Bien: {fileID: 1047054126}
   Mal: {fileID: 1969870269}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 1581922211}
 --- !u!65 &1581922222
 BoxCollider:
@@ -12598,7 +12598,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1623466632}
   Bien: {fileID: 1220527713}
   Mal: {fileID: 325598918}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 1623466628}
 --- !u!65 &1623466639
 BoxCollider:
@@ -14606,7 +14606,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1950208105}
   Bien: {fileID: 1289386058}
   Mal: {fileID: 770877061}
-  RespuestaCorrecta: 6
+  RespuestaCorrecta: 200
   puntos: {fileID: 1950208101}
 --- !u!65 &1950208112
 BoxCollider:

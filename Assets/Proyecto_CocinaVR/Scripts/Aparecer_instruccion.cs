@@ -12,7 +12,7 @@ public class Aparecer_instruccion: MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        
-        if (other.tag == "Untagged")
+        if (other.tag == "Player")
         {
             if (bandera==0)
             {
@@ -20,16 +20,12 @@ public class Aparecer_instruccion: MonoBehaviour
                 Invoke("activar", tiempoMaximo);
                 bandera++;
             }
-           
         }
-        
-
     }
 
     private void activar()
     {
         Display.SetActive(false);
-        //Display2.SetActive(true);  
     }
 
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Informacion : MonoBehaviour
 {
     public GameObject Display;
-	private int intentos = 2;
+	public int intentos = 2;
 	public float tiempoMaximo;
 	private bool flag = false;
 	private float tiempo;
@@ -30,15 +30,7 @@ public class Informacion : MonoBehaviour
 		}
 		
 	}
-	/*void OnTriggerExit(Collider col){
-		
-		switch (col.gameObject.tag){
-		case "PlayerInteractionZone":
-            Display.SetActive (false);
-			break;
-		}
 	
-	}*/
 	private void Update()
 	{
 

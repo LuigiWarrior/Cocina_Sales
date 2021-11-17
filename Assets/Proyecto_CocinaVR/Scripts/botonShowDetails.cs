@@ -14,6 +14,8 @@ public class botonShowDetails : MonoBehaviour
     public Dictionary<string,float> listaD;
     string textoA;
     public float max=10;
+    public GameObject Display;
+    public GameObject Display2;
 
     public void Update(){
         
@@ -37,6 +39,8 @@ public class botonShowDetails : MonoBehaviour
     public void Evento1()
     {
         Debug.Log("ENTRA EVENTO1");
+        Display.SetActive(true);
+        Display2.SetActive(true);
         listaAlimentos.text = "";
         contador = plato.GetComponentInParent<Calculate>().sumatotal;
         mensaje.text = "El total de azucar que consumes es de: " + contador + " cucharadas al día\n\n Alimentos seleccionados:";
