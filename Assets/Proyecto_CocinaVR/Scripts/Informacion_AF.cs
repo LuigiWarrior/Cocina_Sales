@@ -9,6 +9,7 @@ public class Informacion_AF : MonoBehaviour
 	public float tiempoMaximo;
 	private bool flag = false;
 	private float tiempo;
+	public manager contador;
 	void Start()
 	{
 		Display.SetActive(false);
@@ -26,6 +27,7 @@ public class Informacion_AF : MonoBehaviour
 					Display.SetActive(true);
 					flag = true;
 					intentos--;
+					contador.contaraf();
 				}
 				break;
 		}
