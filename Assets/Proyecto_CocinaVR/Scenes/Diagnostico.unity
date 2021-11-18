@@ -8729,15 +8729,75 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1494317712411178847, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494317712411178847, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Malteada
+      objectReference: {fileID: 0}
     - target: {fileID: 1789107285656373143, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
       propertyPath: m_Name
       value: BebidasDiagnostico
       objectReference: {fileID: 0}
+    - target: {fileID: 2086043976700745077, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086043976700745077, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: "Bebida Energ\xE9tica (Monster)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254961455718260383, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254961455718260383, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Malteada Procesada (Hershey)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890824925214, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.53858
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890824925214, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.53858
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890824925214, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.53858
+      objectReference: {fileID: 0}
     - target: {fileID: 3263030890824925214, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890827589460, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.023772264
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890827589460, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.023772262
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030890827589460, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.023772264
       objectReference: {fileID: 0}
     - target: {fileID: 3263030890827589460, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
@@ -8766,6 +8826,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3263030891416865164, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.921124
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030891416865164, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.921124
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030891416865164, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.921124
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263030891416865164, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.484
       objectReference: {fileID: 0}
@@ -8774,10 +8849,50 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.249
       objectReference: {fileID: 0}
+    - target: {fileID: 3581342290532460523, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Yogurth Procesado (Danup)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197846218189559855, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197846218189559855, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Atole Azucarado (Champurrado)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713712304952593339, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0890076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713712304952593339, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0890076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713712304952593339, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0890076
+      objectReference: {fileID: 0}
     - target: {fileID: 5713712304952593339, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722352426767778160, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722352426767778160, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Jugo Procesado (Del Valle)
       objectReference: {fileID: 0}
     - target: {fileID: 6122111014163862399, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
@@ -8788,6 +8903,11 @@ PrefabInstance:
         type: 3}
       propertyPath: azucar
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643308811399852881, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Coca-Cola
       objectReference: {fileID: 0}
     - target: {fileID: 7733964076238251914, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
         type: 3}
@@ -8858,6 +8978,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741752988905004986, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: azucar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741752988905004986, guid: 62b77ccfd0c9ca44aa08c72741f5c42d,
+        type: 3}
+      propertyPath: nombre
+      value: Agua Fresca Azucarada
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7099380365431409890, guid: 62b77ccfd0c9ca44aa08c72741f5c42d, type: 3}

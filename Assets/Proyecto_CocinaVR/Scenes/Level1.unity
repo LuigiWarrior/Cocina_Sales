@@ -2090,7 +2090,12 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Agua saborizada 500 ml\ncontiene \n6"
+      value: "Agua fresca\nAzucarada 500 ml\ncontiene \n10"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -2717,6 +2722,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226422634}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2845,7 +2855,12 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Del Valle 500 ml\ncontiene \n8"
+      value: "Jugo Procesado\nDel Valle 400 ml\ncontiene \n12"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -4726,6 +4741,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8428503}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -5274,6 +5294,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1024823245}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "3 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
@@ -6828,6 +6853,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 315399584}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6961,7 +6991,12 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Monster 473 ml\ncontiene \n12"
+      value: "Bebida Energ\xE9tica\nMonster 500 ml\ncontiene \n10"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -7743,6 +7778,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1363652317}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "2 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
@@ -8465,7 +8505,12 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Yogurth bebible 240 ml\ncontiene \n5"
+      value: "Yogurth Procesado \nDanup 200 ml\ncontiene \n8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -9224,6 +9269,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 232503933}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "2 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
@@ -9476,6 +9526,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 422407364}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "4 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
@@ -10679,6 +10734,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601009076}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "2 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
@@ -10991,6 +11051,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1244970294}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11124,7 +11189,7 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Licuado de frutas 400 ml\ncontiene \n8"
+      value: "Malteada 300 ml\ncontiene \n9"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -11638,6 +11703,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 34850015}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11771,7 +11841,12 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Atole azucarado 200 ml\ncontiene \n5"
+      value: "Atole azucarado \nChampurrado 300 ml\ncontiene \n12"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -12924,6 +12999,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1274306250}
     m_Modifications:
+    - target: {fileID: 834014578517456143, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 834014578517456241, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Pivot.x
@@ -13034,6 +13114,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Info
       objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_Text
+      value: "Malteada Procesada \nHershey's 200 ml\ncontiene \n8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
 --- !u!1001 &9092866677107355738
@@ -13043,6 +13133,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2109648510}
     m_Modifications:
+    - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
+        type: 3}
+      propertyPath: m_Text
+      value: "1 cucharadas\nde az\xFAcar"
+      objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Name
