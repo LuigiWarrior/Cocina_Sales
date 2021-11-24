@@ -11,6 +11,8 @@ public class ResponderPreguntaAbierta : MonoBehaviour
     public string RespuestaCorrecta;
     public Text puntos;
     private float tiempoMaximo = 2f;
+    public manager manager;
+    public bool flag = true;
 
     void Start()
     {
@@ -25,12 +27,19 @@ public class ResponderPreguntaAbierta : MonoBehaviour
             {
                 Bien.SetActive(true);
                 Pregunta.SetActive(false);
+                manager.contarpreguntas();
+                manager.contarpreguntaAbierta();
             }
             else
             {
                 Pregunta.SetActive(false);
                 Mal.SetActive(true);
                 Invoke("tiempoSegundos", tiempoMaximo);
+                if (flag == true)
+                {
+                    manager.porciento();
+                    flag = false;
+                }
             }
         }
         

@@ -11,6 +11,7 @@ public class ResponderVR_AF : MonoBehaviour
     private float tiempoMaximo = 2f;
     public static bool flag = false;
     public static int puntos;
+    public manager manager;
 
     void Start()
     {
@@ -30,12 +31,18 @@ public class ResponderVR_AF : MonoBehaviour
             {
                 Bien.SetActive(true);
                 Display.SetActive(false);
+                manager.contarpreguntas();
             }
             else
             {
                 Display.SetActive(false);
                 Mal.SetActive(true);
                 Invoke("tiempoSegundos", tiempoMaximo);
+                if (flag == true)
+                {
+                    manager.porciento();
+                    flag = false;
+                }
 
             }
         }
