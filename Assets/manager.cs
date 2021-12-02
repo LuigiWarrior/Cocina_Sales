@@ -28,7 +28,7 @@ public class manager : MonoBehaviour
     public void contaraf()
     {
         contadoraf++;
-        if (contadoraf == 12)
+        if (contadoraf == 10)
         {
             DisplayAf.SetActive(true);
         }

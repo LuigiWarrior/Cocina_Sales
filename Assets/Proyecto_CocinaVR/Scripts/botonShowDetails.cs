@@ -23,7 +23,7 @@ public class botonShowDetails : MonoBehaviour
         {
             listaAlimentos.text="";
             contador =plato.GetComponentInParent<Calculate>().sumatotal;
-            mensaje.text = "El total de azucar que consumes es de: " + contador +" cucharadas al día\n\n Alimentos seleccionados:";
+            mensaje.text = "El total de cucharaditas de azúcar es de: " + contador +" cucharaditas al día\n\n Alimentos seleccionados:";
             listaA = plato.GetComponentInParent<Calculate>().lista;
             listaD = plato.GetComponentInParent<Calculate>().listaD;
            
@@ -43,7 +43,7 @@ public class botonShowDetails : MonoBehaviour
         Display2.SetActive(true);
         listaAlimentos.text = "";
         contador = plato.GetComponentInParent<Calculate>().sumatotal;
-        mensaje.text = "El total de azucar que consumes es de: " + contador + " cucharadas al día\n\n Alimentos seleccionados:";
+        mensaje.text = "El total de cucharaditas de azúcar es de: " + contador + " cucharaditas al día\n\n Alimentos seleccionados:";
         listaA = plato.GetComponentInParent<Calculate>().lista;
         listaD = plato.GetComponentInParent<Calculate>().listaD;
 

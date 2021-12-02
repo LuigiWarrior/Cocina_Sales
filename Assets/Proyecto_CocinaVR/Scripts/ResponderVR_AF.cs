@@ -9,9 +9,10 @@ public class ResponderVR_AF : MonoBehaviour
     public GameObject Bien;
     public GameObject Mal;
     private float tiempoMaximo = 2f;
-    public static bool flag = false;
+    public static bool flag2 = false;
     public static int puntos;
     public manager manager;
+    public Flag flag;
 
     void Start()
     {
@@ -22,7 +23,7 @@ public class ResponderVR_AF : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.tag == "Untagged")
+        if (other.tag == "PlayerInteractionZone")
         {
             Debug.Log("Activado");
             puntos += puntosPorRespuesta;
@@ -32,16 +33,17 @@ public class ResponderVR_AF : MonoBehaviour
                 Bien.SetActive(true);
                 Display.SetActive(false);
                 manager.contarpreguntas();
+                
             }
             else
             {
                 Display.SetActive(false);
                 Mal.SetActive(true);
                 Invoke("tiempoSegundos", tiempoMaximo);
-                if (flag == true)
+                if (flag.flag == true)
                 {
                     manager.porciento();
-                    flag = false;
+                    flag.flag = false;
                 }
 
             }

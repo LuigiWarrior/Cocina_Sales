@@ -10,9 +10,12 @@ public class Responder_vr : MonoBehaviour{
     public GameObject Bien;
     public GameObject Mal;
     private float tiempoMaximo = 2f;
-    public bool flag = true;
+    public bool flag2 = true;
     public static int puntos;
     public manager manager;
+    public Flag flag;
+
+    
    
     void Start()
     {
@@ -39,10 +42,10 @@ public class Responder_vr : MonoBehaviour{
                 Display.SetActive(false);
                 Mal.SetActive(true);
                 Invoke("tiempoSegundos", tiempoMaximo);
-                if (flag == true)
+                if (flag.flag == true)
                 {
                     manager.porciento();
-                    flag= false;
+                    flag.flag = false;
                 }
                 
             }

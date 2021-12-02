@@ -15,7 +15,7 @@ public class Calculate : MonoBehaviour
             listaD.Add(other.GetComponentInParent<Datos>().nombre,other.GetComponentInParent<Datos>().azucar); 
             sumatotal +=other.GetComponentInParent<Datos>().azucar;
             
-            Debug.Log(other.GetComponentInParent<Datos>().nombre + " contiene " + other.GetComponentInParent<Datos>().azucar +" de sal");
+            Debug.Log(other.GetComponentInParent<Datos>().nombre + " contiene " + other.GetComponentInParent<Datos>().azucar +" de azúcar");
         }
         
     }
