@@ -12,7 +12,8 @@ public class ResponderPreguntaAbierta : MonoBehaviour
     public Text puntos;
     private float tiempoMaximo = 2f;
     public manager manager;
-    public bool flag = true;
+    public bool flag2 = true;
+    public Flag flag;
 
     void Start()
     {
@@ -28,17 +29,26 @@ public class ResponderPreguntaAbierta : MonoBehaviour
                 Bien.SetActive(true);
                 Pregunta.SetActive(false);
                 manager.contarpreguntas();
-                manager.contarpreguntaAbierta();
+                if (flag.flag == false)
+                {
+                    manager.contarpreguntaAbierta();
+                }
+                
+                if (flag.flag == true) 
+                { 
+                    manager.contarpreguntaPrecision();
+                }
+                
             }
             else
             {
                 Pregunta.SetActive(false);
                 Mal.SetActive(true);
                 Invoke("tiempoSegundos", tiempoMaximo);
-                if (flag == true)
+                if (flag2 == true)
                 {
                     manager.porciento();
-                    flag = false;
+                    flag2 = false;
                 }
             }
         }

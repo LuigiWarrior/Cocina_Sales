@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.XR.WSA.Input;
+﻿using UnityEngine;
 
 public class manager : MonoBehaviour
 {
@@ -11,6 +7,7 @@ public class manager : MonoBehaviour
     public int contadorporciento = 0;
     public int contadorpreguntas = 0;
     public int contadorabiertas = 0;
+    public int contadorprecision = 0;
     public GameObject Display;
     public GameObject DisplayAf;
     public GameObject DisplayPasas;
@@ -65,12 +62,28 @@ public class manager : MonoBehaviour
     public void contarpreguntaAbierta()
     {
         contadorabiertas++;
-        if (contadorabiertas == 8 && contadorporciento <3)
+        if (contadorabiertas == 13 && contadorporciento <3)
         {
             DisplayPasas.SetActive(true);
             Invoke("DesactivarDisplay", 5);
         }
-        if (contadorabiertas == 8 && contadorporciento >= 3)
+        if (contadorabiertas == 13 && contadorporciento >= 3)
+        {
+            DisplayNoPasas.SetActive(true);
+            Invoke("DesactivarDisplay", 5);
+        }
+    }
+
+
+    public void contarpreguntaPrecision()
+    {
+        contadorprecision++;
+        if (contadorprecision == 8 && contadorporciento < 3)
+        {
+            DisplayPasas.SetActive(true);
+            Invoke("DesactivarDisplay", 5);
+        }
+        if (contadorprecision == 8 && contadorporciento >= 3)
         {
             DisplayNoPasas.SetActive(true);
             Invoke("DesactivarDisplay", 5);
