@@ -2599,7 +2599,7 @@ MonoBehaviour:
   Pregunta: {fileID: 282767354}
   Bien: {fileID: 1785361745}
   Mal: {fileID: 1570615854}
-  RespuestaCorrecta: 200
+  RespuestaCorrecta: 300
   puntos: {fileID: 282767350}
   manager: {fileID: 43974878}
   flag2: 1
@@ -5892,7 +5892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 136.9942}
+  m_AnchoredPosition: {x: 1, y: 136.9942}
   m_SizeDelta: {x: 1000, y: 188.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587894103
@@ -5927,8 +5927,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Si ya hiciste X cantidad de \"ejercicio\"\n\xBFC\xFAantos ml puedes tomar
-    de atole azucarado?"
+  m_Text: "Diste un paseo en bicicleta durante 60 minutos y consumiste 12 cucharaditas
+    de az\xFAcar en alimentos y bebidas \n\xBFC\xFAantos ml de atole puedes consumir?"
 --- !u!222 &587894104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6130,14 +6130,14 @@ RectTransform:
   m_GameObject: {fileID: 656955497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0151007, y: 1.0149472, z: 1.5485375}
+  m_LocalScale: {x: 0.97335976, y: 1.0149472, z: 1.5485375}
   m_Children: []
   m_Father: {fileID: 456514166}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 95}
+  m_AnchoredPosition: {x: 6, y: 95}
   m_SizeDelta: {x: 1000, y: 248.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656955499
@@ -6852,6 +6852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Respuesta
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419630059789597389, guid: 8a4bcad8457648247930d2951c6ba913,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8635400571355225014, guid: 8a4bcad8457648247930d2951c6ba913,
         type: 3}
@@ -7629,14 +7634,14 @@ RectTransform:
   m_GameObject: {fileID: 790688609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0151007, y: 1.0149472, z: 1.5485375}
+  m_LocalScale: {x: 0.7260833, y: 0.8355229, z: 1.1076411}
   m_Children: []
   m_Father: {fileID: 1740656424}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 136.9942}
+  m_AnchoredPosition: {x: -3, y: 142}
   m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &790688611
@@ -7668,11 +7673,12 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Si ya hiciste X cantidad de \"ejercicio\"\n\xBFC\xFAantos ml puedes tomar
-    de malteada Hershey's?"
+  m_Text: "No hiciste nada de actividad f\xEDsica durante el d\xEDa y consumiste\n6
+    cucharaditas de az\xFAcar en alimentos y bebidas\n\xBFC\xFAanta malteada procesada
+    Hershey's puedes consumirr?"
 --- !u!222 &790688612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8335,7 +8341,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1485166883}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -9877,14 +9883,14 @@ RectTransform:
   m_GameObject: {fileID: 1181607641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0151007, y: 1.0149472, z: 1.5485375}
+  m_LocalScale: {x: 0.7652621, y: 0.7651464, z: 1.1674085}
   m_Children: []
   m_Father: {fileID: 1950208104}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 136.9942}
+  m_AnchoredPosition: {x: 14, y: 171}
   m_SizeDelta: {x: 1000, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181607643
@@ -9916,11 +9922,12 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Si ya hiciste X cantidad de \"ejercicio\"\n\xBFC\xFAantos ml puedes tomar
-    de esta bebida?"
+  m_Text: "Caminaste a una velocidad de 6km/h durante 60 \nminutos y consumiste 6
+    cucharaditas de az\xFAcar en \nalimentos y bebidas \n\xBFC\xFAanto licuado de
+    fresa puedes consumir?"
 --- !u!222 &1181607644
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10583,7 +10590,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1566060670}
   Bien: {fileID: 1250823408}
   Mal: {fileID: 750592151}
-  RespuestaCorrecta: 200
+  RespuestaCorrecta: 100
   puntos: {fileID: 160964759}
   manager: {fileID: 43974878}
   flag2: 1
@@ -13324,7 +13331,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1581922215}
   Bien: {fileID: 1047054126}
   Mal: {fileID: 1969870269}
-  RespuestaCorrecta: 200
+  RespuestaCorrecta: 0
   puntos: {fileID: 1581922211}
   manager: {fileID: 43974878}
   flag2: 1
@@ -14460,7 +14467,7 @@ MonoBehaviour:
   Pregunta: {fileID: 1623466632}
   Bien: {fileID: 1220527713}
   Mal: {fileID: 325598918}
-  RespuestaCorrecta: 200
+  RespuestaCorrecta: 0
   puntos: {fileID: 1623466628}
   manager: {fileID: 43974878}
   flag2: 1
@@ -15147,14 +15154,14 @@ RectTransform:
   m_GameObject: {fileID: 1754844537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0151007, y: 1.0149472, z: 1.5485375}
+  m_LocalScale: {x: 0.69795275, y: 0.6978472, z: 1.0647279}
   m_Children: []
   m_Father: {fileID: 1581922214}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 136.9942}
+  m_AnchoredPosition: {x: 7, y: 156}
   m_SizeDelta: {x: 1000, y: 153.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754844539
@@ -15186,11 +15193,11 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Si ya hiciste X cantidad de \"ejercicio\"\n\xBFC\xFAantos ml puedes tomar
-    de Danone?"
+  m_Text: "Bailaste derante 60 minutos y consumiste 12 cucharadas \nde az\xFAcar
+    en alimentos y bebidas \n\xBFC\xFAantos ml de yogurt  Danone puedes consumir?"
 --- !u!222 &1754844540
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17668,15 +17675,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110181939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0151007, y: 1.0149472, z: 1.5485375}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.7343191, y: 0.7342079, z: 1.1202047}
   m_Children: []
   m_Father: {fileID: 282767353}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 136.9942}
+  m_AnchoredPosition: {x: 6, y: 136.9942}
   m_SizeDelta: {x: 1000, y: 167.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2110181941
@@ -17708,11 +17715,12 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Si ya hiciste X cantidad de \"ejercicio\"\n\xBFC\xFAantos ml puedes tomar
-    de jugo del\nvalle?"
+  m_Text: "Caminaste a una velocidad de 3km/h durante 60 minutos y \nconsumiste 5
+    cucharaditas de az\xFAcar  en alimentos y bebidas \n\xBFC\xFAantos ml de jugo
+    del valle puedes consumir ?"
 --- !u!222 &2110181942
 CanvasRenderer:
   m_ObjectHideFlags: 0

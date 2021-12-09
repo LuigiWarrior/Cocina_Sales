@@ -2842,7 +2842,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2060904297}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -6013,7 +6013,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Este programa fue desarrollado por los estudiantes:\r\n\nJos\xE9 Luis
-    Guerrero S\xE1nchez @luis.guerrero00\nJos\xE9 Angel Tiscare\xF1o Rubio @ja_.mel\nVictor
+    Guerrero S\xE1nchez @luis.guerrero00\nJos\xE9 Angel Tiscare\xF1o Rubio @ja_.mel\nV\xEDctor
     Samuel Rivera Santana @vsrsrivera13\n\nComo servicio social de la carrera ING.
     Electr\xF3nica y Computaci\xF3n. \r\nUniversidad de Guadalajara\r\nCUValles \r\n"
 --- !u!222 &1307185611
