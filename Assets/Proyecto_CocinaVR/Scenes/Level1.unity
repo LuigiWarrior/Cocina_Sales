@@ -824,8 +824,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Ahora dirigete al muro \ndonde aparecer\xE1n cuadros informativos\nsobre
-    la cantidad de cucharaditas \n\"quemadas\" en distintos tipos de \nactividad
-    f\xEDsica."
+    la cantidad de cucharadas \n\"quemadas\" en distintos tipos de \nactividad f\xEDsica."
 --- !u!222 &106680459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5370,7 +5369,7 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Coca-cola 500 ml\ncontiene \n10"
+      value: "Coca-Cola 500 ml\ncontiene \n10"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5203a03c281705a44ad068dc1833e3be, type: 3}
@@ -8835,7 +8834,7 @@ PrefabInstance:
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
       propertyPath: m_Text
-      value: "Yogurth Procesado \nDanup 200 ml\ncontiene \n8"
+      value: "Yogurth Procesado \nDanone 200 ml\ncontiene \n8"
       objectReference: {fileID: 0}
     - target: {fileID: 4418869974320445725, guid: 5203a03c281705a44ad068dc1833e3be,
         type: 3}
@@ -9382,7 +9381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Ahora puedes avanzar\n a la siguiente etapa.\n Dirigete al cubo verde
+  m_Text: "Ahora puedes avanzar\n a la siguiente etapa.\n Dir\xEDgete al cubo verde
     y \npresiona el bot\xF3n."
 --- !u!222 &1550803695
 CanvasRenderer:
@@ -13848,7 +13847,7 @@ PrefabInstance:
     - target: {fileID: 1929431459837561427, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}
       propertyPath: m_Text
-      value: "1 cucharadas\nde az\xFAcar"
+      value: "1 cucharada\nde az\xFAcar"
       objectReference: {fileID: 0}
     - target: {fileID: 3938196163634480540, guid: 39e648712fba2374aae4f8c4a588b0d7,
         type: 3}

@@ -5916,7 +5916,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 55
+    m_FontSize: 46
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -14687,7 +14687,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "No hiciste nada de actividad fisica,\npero consumiste 9 cucharadas de\naz\xFAcar
-    en alimentos y bebidas.\n\xBFCu\xE1nta coca-cola puedes consumir?"
+    en alimentos y bebidas.\n\xBFCu\xE1nta Coca-Cola puedes consumir?"
 --- !u!222 &1642320092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17719,8 +17719,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Caminaste a una velocidad de 3km/h durante 60 minutos y \nconsumiste 5
-    cucharaditas de az\xFAcar  en alimentos y bebidas \n\xBFC\xFAantos ml de jugo
-    del valle puedes consumir ?"
+    cucharaditas de az\xFAcar  en alimentos y bebidas \n\xBFC\xFAantos ml de Jugo
+    Del Valle puedes consumir ?"
 --- !u!222 &2110181942
 CanvasRenderer:
   m_ObjectHideFlags: 0

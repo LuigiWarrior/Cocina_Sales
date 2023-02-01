@@ -1303,8 +1303,7 @@ namespace Valve.VR
             return stringBuilder.ToString();
         }
 
-        public static bool CheckOldLocation()
-        {
+        public static bool CheckOldLocation() =>
 #if UNITY_EDITOR
             DirectoryInfo dataPath = new DirectoryInfo(Application.dataPath);
             string projectRoot = dataPath.Parent.FullName;
@@ -1359,8 +1358,7 @@ namespace Valve.VR
                 }
             }
 #endif
-            return false;
-        }
+            false;
 
 
         /// <summary>Tell SteamVR that we're using the actions file at the path defined in SteamVR_Settings.</summary>
@@ -1377,7 +1375,7 @@ namespace Valve.VR
 
                 EVRInputError err = OpenVR.Input.SetActionManifestPath(fullPath);
                 if (err != EVRInputError.None)
-                    Debug.LogError("<b>[SteamVR]</b> Error loading action manifest into SteamVR: " + err.ToString());
+                    object p = Debug.LogError("<b>[SteamVR]</b> Error loading action manifest into SteamVR: " + err.ToString());
                 else
                 {
                     int numActions = 0;
@@ -1385,8 +1383,8 @@ namespace Valve.VR
                     {
                         numActions = SteamVR_Input.actions.Length;
 
-                        if (showLogs)
-                            Debug.Log(string.Format("<b>[SteamVR]</b> Successfully loaded {0} actions from action manifest into SteamVR ({1})", numActions, fullPath));
+                        //if (showLogs)
+                            //Debug.Log(string.Format("<b>[SteamVR]</b> Successfully loaded {0} actions from action manifest into SteamVR ({1})", numActions, fullPath));
                     }
                     else
                     {

@@ -6077,7 +6077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene un monster de 500ml?
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene un Monster de 500ml?
     Presiona el \nbot\xF3n + o - seg\xFAn corresponda."
 --- !u!222 &656955500
 CanvasRenderer:
@@ -7875,7 +7875,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n un hershey de 300ml?
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n un Hershey's de 300ml?
     Presiona \nel bot\xF3n + o - seg\xFAn corresponda."
 --- !u!222 &790688612
 CanvasRenderer:
@@ -15976,7 +15976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene una cocacola de 500ml?
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene una Coca-Cola de 500ml?
     Presiona\nel bot\xF3n + o - seg\xFAn corresponda."
 --- !u!222 &1642320092
 CanvasRenderer:
@@ -16962,8 +16962,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene un Danup de 200ml? Presiona
-    el \nbot\xF3n + o - seg\xFAn corresponda."
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar \ncontiene un Danone de 200ml?
+    Presiona el \nbot\xF3n + o - seg\xFAn corresponda."
 --- !u!222 &1754844540
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19624,7 +19624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n jugo del valle de 500ml?
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n Jugo Del Valle de 500ml?
     Presiona el \nbot\xF3n + o - seg\xFAn corresponda."
 --- !u!222 &2110181942
 CanvasRenderer:

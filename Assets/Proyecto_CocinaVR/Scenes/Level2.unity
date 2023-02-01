@@ -1444,7 +1444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n un Danup de 200ml?"
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene\n un Danone de 200ml?"
 --- !u!222 &86010131
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6877,7 +6877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Actividad F\xEDsica\nToca cada imagen y contesta la pregunta."
+  m_Text: "Actividad F\xEDsica.\nToca cada imagen y contesta la pregunta."
 --- !u!222 &589070547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7725,7 +7725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun jugo del valle de
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun Jugo Del Valle de
     500ml?"
 --- !u!222 &708893246
 CanvasRenderer:
@@ -8192,8 +8192,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\nAhora dir\xEDgete \na la actividad f\xEDsica a tu izquierda\ny lee las
-    instrucciones "
+  m_Text: "\nAhora dir\xEDgete \na la actividad a tu izquierda\ny lee las instrucciones."
 --- !u!222 &758655331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9624,7 +9623,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun hershey de 200ml?"
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun Hershey's de 200ml?"
 --- !u!222 &828916134
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17173,7 +17172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nuna coca cola de 500ml
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nuna Coca-Cola de 500ml
     ?"
 --- !u!222 &1256381999
 CanvasRenderer:
@@ -21767,7 +21766,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun monster de 500ml
+  m_Text: "\xBFCu\xE1ntas cucharadas de az\xFAcar contiene \nun Monster de 500ml
     ?"
 --- !u!222 &1702397835
 CanvasRenderer:
