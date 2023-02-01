@@ -478,8 +478,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: " Lleva las bebidas que \nconsumes en un d\xEDa al plato \npara contabilizar
-    la cantidad \nde az\xFAcar que consumes. \nAl terminar \npresiona el bot\xF3n
-    rojo \nal lado del plato"
+    la cantidad \nde az\xFAcar que consumes. \nAl terminar,\npresiona el bot\xF3n
+    rojo \nal lado del plato."
 --- !u!222 &125296088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2046,8 +2046,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u201CEtapa de diagn\xF3stico\". Tu tarea consiste en elegir la cantidad
-    de bebidas az\xFAcaradas con consumes en un d\xEDa. Teletransp\xF3rtate a la
-    cocina y lee las instrucciones que aparecer\xE1n al acercarte a las bebidas."
+    de bebidas azucaradas que consumes en un d\xEDa. Teletransp\xF3rtate a la cocina
+    y lee las instrucciones que aparecer\xE1n al acercarte a las bebidas."
 --- !u!222 &587961810
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7469,8 +7469,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Antes de avanzar a la\nsiguiente fase revisa la cantidad de\n az\xFAcar
-    que consumiste.\nDespues de revisar dirigete\n al cubo verde \ny presiona el
-    bot\xF3n.\n"
+    que consumiste.\nDespues de revisar, \ndir\xEDgete al cubo verde \ny presiona
+    el bot\xF3n.\n"
 --- !u!222 &1654311096
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -694,7 +694,8 @@ MonoBehaviour:
   m_Text: "Este programa fue desarrollado por los estudiantes:\r\n\nJos\xE9 Luis
     Guerrero S\xE1nchez @luis.guerrero00\nJos\xE9 Angel Tiscare\xF1o Rubio @ja_.mel\nVictor
     Samuel Rivera Santana @vsrsrivera13\n\nComo servicio social de la carrera ING.
-    Electr\xF3nica y Computaci\xF3n. \r\nUniversidad de Guadalajara\r\nCUValles \r\n"
+    Electr\xF3nica y Computaci\xF3n. \r\nUniversidad de Guadalajara\r\nCentro Universitario
+    de los Valles \r"
 --- !u!222 &148718856
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6015,7 +6016,8 @@ MonoBehaviour:
   m_Text: "Este programa fue desarrollado por los estudiantes:\r\n\nJos\xE9 Luis
     Guerrero S\xE1nchez @luis.guerrero00\nJos\xE9 Angel Tiscare\xF1o Rubio @ja_.mel\nV\xEDctor
     Samuel Rivera Santana @vsrsrivera13\n\nComo servicio social de la carrera ING.
-    Electr\xF3nica y Computaci\xF3n. \r\nUniversidad de Guadalajara\r\nCUValles \r\n"
+    Electr\xF3nica y Computaci\xF3n. \r\nUniversidad de Guadalajara\r\nCentro Universitario
+    de los Valles\n"
 --- !u!222 &1307185611
 CanvasRenderer:
   m_ObjectHideFlags: 0
